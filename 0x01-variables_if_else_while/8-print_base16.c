@@ -7,16 +7,24 @@
  */
 int main(void)
 {
-	int i;
-	int ch;
+int i;
+	char ch;
 
-	ch = 97;
 	i = 0;
-	while (i < 26)
+	ch = 97;
+	while (i < 16)
 	{
-		putchar(ch);
-		ch++;
-		i++;
+		if (i > 9)
+		{
+			putchar(ch);
+			ch++;
+			i++;
+		}
+		else
+		{
+			putchar(i + '0');
+			i++;
+		}
 	}
 	putchar(10);
 	return (0);

@@ -7,25 +7,17 @@
  */
 int main(void)
 {
-	int i;
+int i;
 	int ch;
 
-	ch = 97;
-	i = 0;
-	while (i < 26)
+	ch = 122;
+	i = 26;
+	while (i > 0)
 	{
 		putchar(ch);
-		ch++;
-		i++;
-	}
-	i = 0;
-	ch = 65;
-	while (i < 26)
-	{
-		putchar(ch);
-		ch++;
-		i++;
+		ch--;
+		i--;
 	}
 	putchar(10);
-	return (0);
+ return (0);
 }

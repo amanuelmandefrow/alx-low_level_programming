@@ -8,22 +8,16 @@
 int main(void)
 {
 	int i;
-	int ch;
 
-	ch = 97;
 	i = 0;
-	while (i < 26)
+	while (i < 10)
 	{
-		putchar(ch);
-		ch++;
-		i++;
-	}
-	i = 0;
-	ch = 65;
-	while (i < 26)
-	{
-		putchar(ch);
-		ch++;
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
 		i++;
 	}
 	putchar(10);
