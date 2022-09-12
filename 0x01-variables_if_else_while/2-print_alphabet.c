@@ -7,17 +7,11 @@
  */
 int main(void)
 {
-	int i;
-	int ch;
-
-	ch = 97;
-	i = 0;
-	while (i < 26)
+	char ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
-		ch++;
-		i++;
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
