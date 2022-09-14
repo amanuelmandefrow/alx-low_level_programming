@@ -30,7 +30,7 @@ void print_times_table(int n)
 					result = product / 10;
 					_putchar(result / 10 + '0');
 					_putchar(result % 10 + '0');
-					_putchar(product % 10 + '0')
+					_putchar(product % 10 + '0');
 				}
 				else
 				{
