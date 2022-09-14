@@ -1,6 +1,8 @@
 #include "headers.h"
 /**
- * print alphabet in lower case
+ * print_alphabet - Enter point 
+ *
+ * Return: has return type void
  */
 void print_alphabet(void)
 {
