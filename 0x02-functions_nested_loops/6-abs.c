@@ -2,18 +2,15 @@
 #include <stdio.h>
 /**
  * _abs - compute the absolute value of integer
- * num - the entered number
  *
  * Return: alwatys the absolute value of the integer
  */
-int _abs(int num)
+int _abs(int n)
 {
-	if (num > 0 || num == 0)
+	if (n > 0 || n == 0)
 	{
-		return (num);
+		return (n);
 	}
 	else 
-	{
-		return (num * -1);
-	}
+		return (n * -1);
 }
