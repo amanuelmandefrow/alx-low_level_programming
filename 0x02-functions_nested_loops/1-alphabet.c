@@ -1,7 +1,7 @@
 #include "headers.h"
 
 /**
- * print_alphabet - Enter point 
+ * print alphabet - Enter point 
  *
  * Return: has return type void
  */
