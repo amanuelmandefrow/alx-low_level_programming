@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	int i, num1, num2, sum;
+	long int i, num1, num2, sum;
 
 	num1 = 1;
 	num2 = 1;
 	sum = num1 + num2;
-	printf("%d, %d, ", num2, sum);
+	printf("%ld, %ld, ", num2, sum);
 	for (i = 1; i < 49; i++)
 	{
 		num1 = num2;
 		num2 = sum;
 		sum = num1 + num2;
 		if (i == 48)
-			printf("%d\n", sum);
+			printf("%ld\n", sum);
 		else
-			printf("%d, ", sum);
+			printf("%ld, ", sum);
 	}
 	return (0);
 }
