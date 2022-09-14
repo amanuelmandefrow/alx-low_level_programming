@@ -1,31 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entryb point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
-	char ch;
+	char c;
 
-	i = 0;
-	ch = 97;
-	while (i < 16)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (i > 9)
-		{
-			putchar(ch);
-			ch++;
-			i++;
-		}
-		else
-		{
-			putchar(i + '0');
-			i++;
-		}
+		putchar(c);
 	}
-	putchar(10);
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 	return (0);
 }
