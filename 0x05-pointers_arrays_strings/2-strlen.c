@@ -4,7 +4,7 @@
  * _strlen - return the length of string
  * @s : character pointer
  *
- * Return : integer number
+ * Return: integer number k
  */
 int _strlen(char *s)
 {
