@@ -12,16 +12,16 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int count;
+	int k;
 
-	count = 0;
+	k = 0;
 
-	while (count >= 0)
+	while (k >= 0)
 	{
-		*(dest + count) = *(src + count);
-		if (*(src + count) == '\0')
+		*(dest + k) = *(src + k);
+		if (*(src + k) == '\0')
 			break;
-		count++;
+		k++;
 	}
 	return (dest);
 }
