@@ -2,7 +2,7 @@
 
 /**
  * _strpbrk - searches a string for any set of bytes
- * s: string
+ * @s: string
  * @accept: string
  *
  * Return: return s if it match with accept Null otherwise
